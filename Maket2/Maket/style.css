@@ -1,0 +1,155 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*-------- Home--------- */
+.main {
+    min-height: 596px;
+    background-color: #87509c
+}
+
+.container {
+    max-width: 1140px;
+    height: 596px;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 37px;
+    padding: 57px 0 0 0;
+}
+
+.navbar {
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
+
+.logo{
+    margin: 0 483px 0 0;
+}
+
+.navlink {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0 10px 0 0;
+    padding: 8px 14px;
+    border-radius:10%;
+}
+
+.navlink:hover {
+    background-color: #643a79;
+}
+
+h1.title {
+    color: #f7f3ea;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48.82px;
+    text-align: center;
+    margin: 145px 0 0 0;
+}
+
+.btn{
+    margin: 82px auto auto auto;
+    text-align: center;
+}
+
+.button {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.19px;
+    text-transform: uppercase;
+    letter-spacing: 0.27px;
+    padding: 28px 81px 28px 82px;
+    background-color: #eb7d4b;
+    border-radius:5px;
+    box-shadow: 0 -5px inset #c86a40;
+}
+
+/*-------- About --------- */
+.main_About {
+    background-color: #17c2a4;
+    min-height: 747px;
+}
+.header_About {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title_About {
+    padding: 119px 0 0 0;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.text_About {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    /* Text style for "We are wor" */
+    letter-spacing: 0.36px;
+}
+
+.container_About {
+    margin: 39px 155px 88px 148px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.block_About {
+    min-width: 260px;
+    margin: auto 20px auto auto;
+}
+
+.img_About {
+    height: 199px;
+    padding: 37px auto auto 31px;
+}
+
+.name_About{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+    margin: 39px auto 20px auto;
+}
+
+.describe_About {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+/*-------- WORK --------- */
+/*-------- Blog --------- */
+/*-------- Contact --------- */
