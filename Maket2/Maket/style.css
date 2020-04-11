@@ -21,18 +21,21 @@ body {
 /*-------- Home--------- */
 .main {
     min-height: 596px;
-    background-color: #87509c
+    background-color: #87509c;
+    height: 596px;
 }
 
 .container {
     max-width: 1140px;
-    height: 596px;
     margin: 0 auto;
 }
 
 .header {
     min-height: 37px;
     padding: 57px 0 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar {
@@ -41,7 +44,7 @@ body {
 }
 
 .logo{
-    margin: 0 483px 0 0;
+    height: 37px;
 }
 
 .navlink {
@@ -86,19 +89,21 @@ h1.title {
     box-shadow: 0 -5px inset #c86a40;
 }
 
-/*-------- About --------- */
-.main_About {
+/*-------- services --------- */
+.services {
     background-color: #17c2a4;
     min-height: 747px;
+    height: 747px;
+    color: #ffffff;
 }
-.header_About {
+.header_services {
     text-align: center;
     margin: 0 auto;
+    max-width: 590px;
 }
 
-.title_About {
+.title_services {
     padding: 119px 0 0 0;
-    color: #ffffff;
     font-size: 40px;
     font-weight: 700;
     line-height: 29.91px;
@@ -106,34 +111,41 @@ h1.title {
     letter-spacing: 4px;
 }
 
-.text_About {
-    color: #ffffff;
-    font-family: "Titillium Web";
+.title_services::after {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 4px;
+    margin: 21px auto 23px;
+    background-color: #000000;
+    opacity: 0.15;
+    border-radius:5px;
+}
+
+.text_services {
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
-    /* Text style for "We are wor" */
     letter-spacing: 0.36px;
 }
 
-.container_About {
+.container_services {
     margin: 39px 155px 88px 148px;
     display: inline-flex;
     text-align: center;
 }
 
-.block_About {
+.block_services {
     min-width: 260px;
     margin: auto 20px auto auto;
 }
 
-.img_About {
+.img_services {
     height: 199px;
     padding: 37px auto auto 31px;
 }
 
-.name_About{
-    color: #ffffff;
+.name_services {
     font-size: 24px;
     font-weight: 700;
     line-height: 18px;
@@ -142,14 +154,40 @@ h1.title {
     margin: 39px auto 20px auto;
 }
 
-.describe_About {
-    color: #ffffff;
+.describe_services {
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
 
-/*-------- WORK --------- */
-/*-------- Blog --------- */
-/*-------- Contact --------- */
+/*-------- team --------- */
+.team {
+    background-color: #e7f1f8;
+    height: 914px;
+}
+/*-------- skills --------- */
+.skills {
+    background-color: #ffffff;
+    height: 655px;
+}
+/*-------- portfolio --------- */
+.portfolio {
+    background-color: #ffdd99;
+    height: 1423px;
+}
+/* about */
+.about {
+    background-color: #d74680;
+    height: 895px;
+}
+/* contacts */
+.contacts {
+    background-color: #3c5499;
+    height: 819px;
+}
+/* footer */
+.footer {
+    background-color: #344b8e;
+    height: 112px;
+}
