@@ -38,10 +38,10 @@ body {
     justify-content: space-between;
 }
 
-.navbar {
+/* .navbar {
     display: inline-block;
     margin: 10px 0 0 0;
-}
+} */
 
 .logo{
     height: 37px;
@@ -96,7 +96,7 @@ h1.title {
     height: 747px;
     color: #ffffff;
 }
-.header_services {
+.services__name {
     max-width: 600px;
 }
 
@@ -106,7 +106,12 @@ h1.title {
     padding: 119px 0 80px 0;
 }
 
-.title_services {
+.services__section {
+   
+    
+}
+
+.section {
     font-size: 40px;
     font-weight: 700;
     line-height: 29.91px;
@@ -114,7 +119,7 @@ h1.title {
     letter-spacing: 4px;
 }
 
-.line::after {
+.section::after {
     content: "";
     display: block;
     width: 87px;
@@ -125,11 +130,15 @@ h1.title {
     border-radius:5px;
 }
 
-.text_services {
+.description {
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.36px;
+}
+
+.text_services {
+    
 }
 
 .container_services {
@@ -170,17 +179,17 @@ h1.title {
     height: 914px;
 }
 
-.team__header {
+.team__name {
     max-width: 640px;
     color: #3c4761;
 }
 
-.team__title {
+.team__section {
 
 }
 
-.team__text {
-
+.team__description {
+    
 }
 /*-------- skills --------- */
 .skills {
@@ -206,4 +215,21 @@ h1.title {
 .footer {
     background-color: #344b8e;
     height: 112px;
+}
+
+.footer__navbar {
+    padding: 41px 151px 41px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__navlink {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.91px;
+    letter-spacing: 0.48px; 
+    color:#ffffff;
+}
+
+.footer__navlink:hover{
+    color: #30bae7;
 }
