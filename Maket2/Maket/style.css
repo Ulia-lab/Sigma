@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -137,24 +137,22 @@ h1.title {
     letter-spacing: 0.36px;
 }
 
-.text_services {
-    
-}
-
 .container_services {
-    margin: 39px 155px 88px 148px;
-    display: inline-flex;
+    margin: 0 auto;
+    display: flex;
     text-align: center;
+    max-width: 1027px;
+    justify-content: space-between;
 }
 
 .block_services {
-    min-width: 260px;
-    margin: auto 20px auto auto;
+    max-width: 260px;
+    margin: auto 20px auto 20px;
+    flex-basis: 20%;
 }
 
-.img_services {
-    height: 199px;
-    padding: 37px auto auto 31px;
+.branding {
+    height: 126px;
 }
 
 .name_services {
@@ -177,19 +175,59 @@ h1.title {
 .team {
     background-color: #e7f1f8;
     height: 914px;
+    color: #3c4761;
 }
 
 .team__name {
     max-width: 640px;
-    color: #3c4761;
 }
 
 .team__section {
-
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 30.87px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .team__description {
-    
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26.84px;
+    letter-spacing: 0.36px;
+}
+
+.team__container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team__block {
+    flex-basis: 20%;
+}
+
+.team__img {
+    max-width: 200px;
+    max-height: 241px;
+    padding: 0 0 41px 0;
+}
+
+.team__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+    padding: 0 0 15px 0;
+}
+
+.team__subtitle{
+    color: #30bae7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.32px;
 }
 /*-------- skills --------- */
 .skills {
