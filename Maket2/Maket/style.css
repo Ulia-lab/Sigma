@@ -451,6 +451,7 @@ h1.title {
     min-height: 870px;
     background-color: #3c5499;
     height: 819px;
+    color: #ffffff;
 }
 .touch__name{
     
@@ -503,8 +504,6 @@ h1.title {
 }
 .touch__button:hover{
     box-shadow: 0 0 3px 3px #299ec4;
-    
-}
 }
 /* footer */
 .footer {
