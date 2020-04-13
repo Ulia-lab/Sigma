@@ -331,11 +331,12 @@ h1.title {
 }
 
 .portfolio__content {
+    margin: 0 auto;
     display: flex;
-    flex-basis: 40%;
     justify-content: space-between;
     max-width: 1100px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .portfolio__block {
@@ -352,7 +353,27 @@ h1.title {
     line-height: 19.5px;
     text-transform: uppercase;
     letter-spacing: 0.36px;
+    padding: 0 0 64px 0;
 }
+
+.btn{
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+
+.button {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.19px;
+    text-transform: uppercase;
+    letter-spacing: 0.27px;
+    padding: 28px 55px 27px 58px;
+    background-color: #17c2a4;
+    border-radius:5px;
+    box-shadow: 0 -5px inset #14a78d;
+}
+
 
 /* about */
 .about {
