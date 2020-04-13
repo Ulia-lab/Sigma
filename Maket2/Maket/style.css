@@ -448,7 +448,7 @@ h1.title {
 /* Block Touch */
 .touch{
     width: 100%;
-    min-height: 819px;
+    min-height: 870px;
     background-color: #3c5499;
 }
 .touch__name{
