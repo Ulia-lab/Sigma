@@ -283,7 +283,77 @@ h1.title {
 .portfolio {
     background-color: #ffdd99;
     height: 1423px;
+    color: #393939;
 }
+
+.portfolio__name {
+    margin: 0 auto;
+}
+
+.portfolio__section {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.portfolio__description {
+    margin: 0 auto;
+    max-width: 515px;
+    text-align: center;
+    padding: 0 0 54px 0;
+}
+
+.portfolio__navbar {
+    max-width: 378px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.portfolio__navlink {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+    padding: 12px 24px;
+    border-radius:10%;
+    background-color: #ebcb8d;
+    color: #393939;
+}
+
+.portfolio__navlink:hover {
+    background-color: #ffffff;;
+}
+
+.portfolio__content {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-between;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.portfolio__block {
+    max-width: 541px;
+}
+
+.portfolio__img {
+    padding: 0 0 32px 0;
+}
+
+.portfolio__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+}
+
 /* about */
 .about {
     background-color: #d74680;
