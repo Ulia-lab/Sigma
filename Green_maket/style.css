@@ -126,6 +126,15 @@ content {
 }
 /*  Our work info */
 
+.choices__main {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.work__container {
+    width: 100%;
+}
+
 .work__logo {
     margin: 147px auto 50px;
 }
@@ -157,7 +166,6 @@ content {
 .work__choices {
     display:flex;
     justify-content: space-between;
-    max-width: 962px;
 }
 
 .choice {
