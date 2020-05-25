@@ -42,6 +42,7 @@ body {
     display: flex;
     margin: 10px 0 0 0;
     flex-wrap:wrap;
+    padding: 0 0 0 40px;
 }
 
 .logo{
@@ -466,7 +467,6 @@ h1.title {
     color: #ffffff;
 }
 
-
 /* Form */
 .form{
    margin: 0 auto;
@@ -505,7 +505,8 @@ h1.title {
 }
 /* Button */
 .touch__btn {
-    padding: 0 0 40px 0;
+    text-align: center;
+    padding: 0 0 145px 0;
 }
 
 .touch__button{
@@ -520,7 +521,6 @@ h1.title {
 /* footer */
 .footer {
     background-color: #344b8e;
-    height: 112px;
 }
 
 .footer__navbar {
@@ -535,6 +535,7 @@ h1.title {
     line-height: 29.91px;
     letter-spacing: 0.48px; 
     color:#ffffff;
+    padding: 0 5px;
 }
 
 .footer__navlink:hover{
