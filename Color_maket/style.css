@@ -20,8 +20,8 @@ body {
 
 /*-------- Home--------- */
 .main {
-    min-height: 596px;
     background-color: #87509c;
+    padding: 0px 20px;
 }
 
 .container {
@@ -35,12 +35,14 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    
 }
 
-/* .navbar {
-    display: inline-block;
+.navbar {
+    display: flex;
     margin: 10px 0 0 0;
-} */
+    flex-wrap:wrap;
+}
 
 .logo{
     height: 37px;
@@ -73,6 +75,7 @@ h1.title {
 .btn{
     margin: 82px auto auto auto;
     text-align: center;
+    padding: 0 0 145px 0;
 }
 
 .button {
