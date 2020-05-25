@@ -284,13 +284,14 @@ h1.title {
 }
 
 .skills_icon {
-    padding: 0 0 40px 0;
+    padding: 0 0 30px 0;
 }
 
 /*-------- portfolio --------- */
 .portfolio {
     background-color: #ffdd99;
     color: #393939;
+    padding: 0 10px;
 }
 
 .portfolio__name {
@@ -348,6 +349,7 @@ h1.title {
 
 .portfolio__block {
     max-width: 541px;
+    margin: 0 auto;
 }
 
 .portfolio__img {
@@ -366,6 +368,7 @@ h1.title {
 .portfolio__btn{
     margin: 40px 0 0 0;
     text-align: center;
+    padding: 0 0 50px 0;
 }
 
 .portfolio__button {
@@ -386,6 +389,7 @@ h1.title {
 .about {
     background-color: #d74680;
     color: #ffffff;
+    padding: 0 20px;
 }
 
 .about__section {
@@ -457,15 +461,11 @@ h1.title {
     width: 100%;
     min-height: 870px;
     background-color: #3c5499;
-    height: 819px;
+    height: 100%;
     color: #ffffff;
 }
-.touch__name{
-    
-}
-.touch__section{
-    
-}
+
+
 /* Form */
 .form{
    margin: 0 auto;
@@ -503,6 +503,10 @@ h1.title {
     color:#fff
 }
 /* Button */
+.touch__btn {
+    padding: 0 0 40px 0;
+}
+
 .touch__button{
     font-family: 'Titillium Web', sans-serif;
     background-color: #30bae7;
@@ -522,6 +526,7 @@ h1.title {
     padding: 41px 151px 41px 140px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer__navlink {
     font-size: 24px;
