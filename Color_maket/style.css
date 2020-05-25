@@ -354,6 +354,7 @@ h1.title {
 
 .portfolio__img {
     padding: 0 0 32px 0;
+    max-width: 100%;
 }
 
 .portfolio__text {
